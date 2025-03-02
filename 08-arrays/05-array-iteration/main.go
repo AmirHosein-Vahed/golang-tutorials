@@ -10,6 +10,11 @@ func main() {
 		fmt.Println(names[i])
 	}
 
+	// better format
+	for i := range len(names) {
+		fmt.Println(names[i])
+	}
+
 	// Finding the Sum of an Array
 	a := [4]float64{3.5, 7.2, 4.8, 9.5}
 	sum := float64(0)
